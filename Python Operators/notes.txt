@@ -1,0 +1,65 @@
+Basic Operators
+Operators are the constructs which can manipulate the value of operands.
+E.g; 7 + 9 = 16. 7 & 9 are called operands and + is called the operator.
+
+Types of operator
+- Arithmetic Operators:- Addition (+), Substraction(-), Multiplication(*), Division(/), Modulus(%), Floor Division(//) and Exponent(**)
+Note: Floor Division- the division of operands where the result is the quotient in which the digits after the decimal point are removed. 
+E.g 9//2= 4 & 9.0//2/0 = 4.0
+ ** Exponent - performs exponential (power) calculation on operators. E.g a**b = 10 to the opwer 20
+
+- Comparison (Relational) Operators:- These operators compare the values on either side of them and decide the realtion among them.
+== If the values of two operands are equal, then the condition becomes true.
+!= If values of two operands are not equal, then condition becomes true.
+> If the value of left operand is greater than the value of the right operand, then condition becomes true.
+< If the value of left operand is less than the value of right operand, then condition becomes true.
+>= If the value of left operand is greater than or equal to the value of right operand, then condition becomes true.
+<= If the value of left operand is less than or equal to the value of right operand, then condition becomes true.
+
+- Assignment Operators
+= Assigns values from right side operands to left side operand
++= Add AND - It adds right operand to the left operand and assign the result to left operand. E.g c += a is equivalent to c = c + a 
+-= Subtract AND - It subtracts right operand from the left operand and assign the result to left operand. 
+E.g c -= a is equivalent to c = c - a 
+*= Multiply AND - It multiplies right operand with the left operand and assign the result to left operand. 
+E.g c *= a is equivalent to c = c * a 
+/= Divide AND - It divides left operand with the right operand and assign the result to left operand. 
+E.g c /= a is equivalent to c = c / a 
+%= Modulus AND - It takes modulus using two operands and assign the result to left operand. 
+E.g c %= a is equivalent to c = c % a 
+**= Exponent AND - Performs exponential (power) calculation on operators and assign value to the left operand. 
+E.g c **= a is equivalent to c = c ** a 
+//= Floor Division - It performs floor division on operators and assign value to the left operand. 
+E.g c //= a is equivalent to c = c//a  
+
+- Logical Operators
+Example
+and Logical AND - If both the operands are true then condition becomes true.
+or Logical OR - If any of the two operands are non-zero then the condition becomes true.
+not Logical NOT - Used to reverse the logical state of its operand.
+
+- Bitwise Operators
+Works on bits and performs bit-by-bit operation. Example if a = 60; and b = 13; Now in binary format they will be as follows:-
+a = 0011 1100
+b = 0000 1101
+a&b(& Binary AND) = 0000 1100 - Copies a bit to the result, if it exists in both operands.
+a|b (| Binary OR) = 0011 1101 - It copies a bit, if it exists in either operand.
+a^b (^ Binary XOR) = 0011 0001 - It copies the bit, if it is set in one operand but not both.
+~a (~ Binary Ones Complement) = 1100 0011 - It is unary and has the effect of 'flipping' bits.
+<< Binary Left Shift - The left operand's value is moved left by the number of bits specified by the right operand. 
+E.g a << = 240 (means 1111 0000)
+>> Binary Right Shift - The left operand's value is moved right by the number of bits specified by the right operand. 
+E.g a >> = 15 (means 0000 1111)
+
+- Membership Operators
+Test for membership in a sequence, such as strings, list, or tuples.
+in - evaluates to true, if it finds a variable in the specified sequence and false otherwise.
+not in - evaluates to true, if it does not find a variable in the specified sequence and false otherwise.
+
+- Identity Operators
+compare the memory locations of two objects.
+is - evaluates to true if the variables on either side of the operator point to the same object and false otherwise.
+is not - evaluates to false if the variables on either side of the operator point to the same object and true otherwise.
+
+Operators Precedence
+Operator Precedence affects the evaluation of an expression.
