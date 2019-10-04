@@ -1,0 +1,45 @@
+Decision Making in Python 3
+Decision-Making is the anticipation of conditionx occuring during the execution of a progra, and specified actions taken according to the conditions.
+Decision structures evaluate multiple expressions, which produce TRUE or FALSE as the outcome.
+Python programming language assumes any non-zero and non-null values as TRUE, and any zero or null values as FALSE value.
+Statements
+if Statements - An if statement consists of a Boolean expression followed by one or more statements.
+if...else statements - An if statement can be followed by an optional else statement, which executes when the boolean expression is FALSE
+nested if statements - You can use one if or else if statement inside another if or else if statement(s)
+
+IF statements
+syntax
+
+if express:
+   statement(s)
+
+In Python, statements in a block are uniformly indented after the : symbol. If boolean expression evaluates to FALSE, then the first set of code after the end of block is executed.
+
+IF...ELIF...ELSE Statements
+An else statement can be combined with an if statement. An else statement contains a block of code that executes if the conditional expression in the if statement resolves to 0 or a FALSE value.
+The else statement is an oprional statement and there could be at the most only one else statement following if...else
+
+The elif Statements
+The elif statement allows you to check multiple expressions for TRUE and execute a block of code as soon as one of the conditions evaluates to TRUE.
+elif statement is also optional however unlike else for which there can be at the most one statement, there can be an arbitrary number of elif statements following an if. 
+
+Nested IF Statements
+Is applied when you want to check for another condition after a condition resolves to TRUE.
+In a nested if construct, you can have an if...elif...else construct inside another if...elif...else construct. Check out the code.
+syntax
+
+if expression1:
+ statement(s)
+ if expression2:
+ statement(s)
+ elif expression3:
+ statement(s)
+ else
+ statement(s)
+elif expression4:
+ statement(s)
+else:
+ statement(s)
+
+ Single Statement Suites
+ If the suite of an if clause consists only of a single line, it may go on the same line as the header statement. E.g Check out an example in the code "singlestatement.py"
