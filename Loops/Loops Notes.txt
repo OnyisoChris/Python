@@ -26,3 +26,12 @@ The for statement in Python has the ability to iterate over the items of any seq
 
 Iterating by Sequence Index
 An alternative way of iterating through each item is by index offset into the sequence itself.
+
+Using else Statement with Loops
+Having as else statement associated with a loop statement is supported in Python.
+- If the else statement is used with a for loop, the else block is executed only if for loops terminates normally and not not by encountering break statement.
+- If the else statement is used with a while loop, the else statement is executed when the condition becomes false.
+
+Nested Loops
+Python allows the use of one loop inside another loop. E.g A for loop can be inside a while loop and vice versa.
+

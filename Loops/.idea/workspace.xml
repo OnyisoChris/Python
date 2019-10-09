@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5b1d7e82-bc96-464f-8be3-cc493d2dc087" name="Default Changelist" comment="" />
+    <list default="true" id="5b1d7e82-bc96-464f-8be3-cc493d2dc087" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/elsewithLoops.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nestedloops" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nestedloops.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Loops Notes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Loops Notes.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sequenceindex.py" beforeDir="false" afterPath="$PROJECT_DIR$/sequenceindex.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,7 +21,12 @@
   <component name="ProjectId" id="1RkqyOTpmVGpFERwN4XaTHPSVZa" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Intro to Python" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Learn With Chris\python1\Python\Loops" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -46,7 +58,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
