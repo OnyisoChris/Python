@@ -35,3 +35,10 @@ Having as else statement associated with a loop statement is supported in Python
 Nested Loops
 Python allows the use of one loop inside another loop. E.g A for loop can be inside a while loop and vice versa.
 
+Loop Control Statements
+The change the execution from its normal sequence.
+1. Break statement - Terminates the loop statement and transfers execution to the statement immediately following the loop.
+2. Continue statement - Causes the loop to skip the remainder of its body and immediately retest itd condition prior to reiterating.
+3. Pass statement - Is used when a statement is required syntactically but you do not want any command or code to execute.
+
+Iterator and Generator

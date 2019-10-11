@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b1d7e82-bc96-464f-8be3-cc493d2dc087" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/elsewithLoops.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nestedloops" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nestedloops.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/break.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/break1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/continue.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pass.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Loops Notes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Loops Notes.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sequenceindex.py" beforeDir="false" afterPath="$PROJECT_DIR$/sequenceindex.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,7 +21,7 @@
   <component name="ProjectId" id="1RkqyOTpmVGpFERwN4XaTHPSVZa" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Intro to Python" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -39,6 +39,34 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="range" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Loops" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/range.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.range" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
