@@ -42,3 +42,9 @@ The change the execution from its normal sequence.
 3. Pass statement - Is used when a statement is required syntactically but you do not want any command or code to execute.
 
 Iterator and Generator
+Iterator is an object which allows a programmer to traverse through all the elements of a collection, regardless of its specific implementation.
+In python, an iterator object implements 2 methods; iter() and next()
+A generator is a function that produces or yields a sequence of values using yield method.
+When a generator function is called, it returns a generator object without even beginning execution of the function.
+When the next() method is called for the first time, the function starts executing, until it reaches the yield statement, which returns the yielded value.
+Therefore, the last execution and the second next()call continues from previous value.
