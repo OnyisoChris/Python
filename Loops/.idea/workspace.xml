@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b1d7e82-bc96-464f-8be3-cc493d2dc087" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/generator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iterator.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Loops Notes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Loops Notes.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,7 +16,7 @@
   <component name="ProjectId" id="1RkqyOTpmVGpFERwN4XaTHPSVZa" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Numbers" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">

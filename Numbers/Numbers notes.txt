@@ -1,0 +1,77 @@
+
+Numbers in Python 3
+Number data types store numeric values. They are immutable data types.
+Immutable means changing the value of a number data types results in a newly allocated object.
+Number objects are created when you assign a value to them. e.g var1 = 12
+The following is a syntax on how you can delete the reference to a number object by using del statement.
+del var1[, var2[,var3[...,varN]]]]
+You can also delete a single object or multiple objects by using the del statement. Example;
+del var
+del var_a, var_b
+
+Python supports the following numerical types;
+- int (signed integers): positive or negative whole numbers with no decimal point. Python 2 has 2 integer types - int and long(not present in python 3)
+- float (floating point real values)/floats: represent real numbers and are written with a decimal point dividing the integer and the fractional parts.
+Floats may also be in scientific notation, with E or e indicating the power of 10 (2.5e2 = 2.5 x 10^2 = 250).
+- complex (complex numbers): are of the form a + bJ, where a and b are floats and J (or j) represents the square root of -1 (which is an imaginary number).
+The real part of the number is a, and the imaginary part is b. Complex numbers are not used much in python programming.
+
+Run the following codes on python console to get the results;
+>>> number = 0xA0F #Hexa-decimal
+>>> number
+2575
+>>> number=0o37 #Octal
+>>> number
+31
+
+Number Type Conversion
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

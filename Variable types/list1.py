@@ -1,0 +1,5 @@
+Days = (["Monday", "Tuesday", "Wednesday", "Thurday", "Friday", "Saturday", "Sunday"])
+print (Days)
+print(Days[0])
+print(Days[2:5])
+print(Days[3:])

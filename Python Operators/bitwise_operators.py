@@ -4,7 +4,7 @@ print ('a=',a,':',bin(a),'b=',b,':',bin(b))
 c = 0
 
 c = a & b;      #12 = 0000 1100
-print ("result ofAND is ", c, ':',bin(c))
+print ("result of AND is ", c, ':',bin(c))
 
 c = a | b;      #61 = 0011 1101
 print ("result of OR is ", c,':',bin(c))

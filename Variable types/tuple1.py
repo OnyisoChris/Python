@@ -1,0 +1,8 @@
+weekdays = ("Monday", "Tuesday", "Wednesday", "Thursday", "Friday")
+weekend = ("Saturday", "Sunday")
+print(weekdays)
+print(weekdays[0])
+print(weekdays[3:5])
+print(weekdays[3:])
+print(weekend * 2)
+print(weekdays + weekend)
