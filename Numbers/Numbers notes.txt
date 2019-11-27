@@ -25,14 +25,57 @@ Run the following codes on python console to get the results;
 31
 
 Number Type Conversion
+int(x) - converts x to a plain integer
+long(x) - converts x to a long integer
+float(x) - converts x to a floating-point number
+complex(x) - convert x to a complex number with real part x and imaginary part zero
+complex(x, y) - converts x and y to a complex number with real part x and imaginary part y. x and y are numeric expressions.
 
+Mathematical Functions
 
+abs(x) - The absolute value of x: the (positive) distance between x and zero.
+ceil(x) - The ceiling of x: the smallest integer not less than x
+cmp(x, y) - -1 if x < y, 0 if x == y, or 1 if x > y. Deprecated in Python 3; Instead use return (x>y)-(x<y).
+exp(x) - The exponential of x: e^x
+fabs(x) - The absolute value of x
+floor(x) - The largest integer not greater than x
+log(x) - The natural logarithm of x, for x>0
+log10(x) - The base-10 logarithm of x for x>0
+max(x1, x2,...) - The largest of its arguments: the value closest to positive infinity.
+min(x1, x2,...) - The smallest of its arguments: the value closest to negative infinity.
+modf(x) - The fractional and integer parts of x in a two-item tuple.Both parts have same sign as x. The imteger part is returned as float.
+pow(x, y) - The value of x**y.
+round(x[.n]) - x rounded to n digits from the decimal point. Python rounds away from zero as a tie-breaker: round(0.5) is 1.0 and round(-0.5) is -1.0
+x - Is a numeric expression
+n - Represents number of digits from decimal point up to whoch x is to be rounded.
+sqrt(x) - The square root of x for x > 0.
 
+Random Number Functions
+choice(seq) - A random item from a list, tuple or string.
+randrange ([start,] stop [,step]) - A randomly selected element from range(start, stop, step)
+start - Start point of the range.
+stop - stop point of the range.
+step - value with which number is incremented. Default is 1.
+random() - A random float r, such that 0 is less than or equal to r and r is less than 1.
+seed([x]) - Sets the integer starting value used in generating random numbers. Call this function before calling any other random module function. Return None.
+For instance,
+seed ([x], [y])
+x - Is the seed for the next random number. If omitted, then it takes system time to generate the next random number.
+If x is an int, it is used directly.
+y - Is the version number (default is 2). str, byte or byte array object gets converted in int. Version 1 used hash() of x.
 
+shuffle(lst) - Randomizes the items of a list in place. Returns none.
+For instance,
+shuffle (lst, [random])
+lst - This could be a list or tuple
+random - Is an optional 0 argument function returning float between 0.0 - 1.0. Default in None.
+uniform(x, y) - A random float r, such that x  is less than or equal to r and r is less than y.
+For instance,
+uniform(x, y)
+x - Sets the lower limit of the random float.
+y - Sets the upper limit of the random float.
 
-
-
-
+Trigonometric Functions
 
 
 
