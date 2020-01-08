@@ -76,7 +76,15 @@ x - Sets the lower limit of the random float.
 y - Sets the upper limit of the random float.
 
 Trigonometric Functions
-
+degrees(X) - Converts angle x from radians to degrees.
+tan(X) - Return the tanget of x radians.
+atan2(Y, X) - Return atan(Y / X), in radians.
+sin(X) - Return the sine of x radians.
+asin(X) - Return the arc sine of X, in radians.
+cos(X) - Return the cosine of x radians.
+acos(X) - Return the arc cosine of X, in radians.
+radians(X) - Converts angle x from degrees to radians.
+hypot(X, Y) - Return the Euclidean norm, sqrt(X*X + Y*Y).
 
 
 
